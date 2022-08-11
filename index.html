@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    HTML Cheat Sheet
+  </title>
+</head>
+
+<body>
+  <base href="blog.html">
+  <!--Specify a default URL and a default target for all links on a page-->
+  <a href="blog.html">Go to blog</a>
+  <hr>
+  <!--Headings-->
+  <h1 title="title"> Heading One </h1>
+  <!--heading with "Tag Attribute"-->
+  <h2> Heading Two </h2>
+  <h3> Heading Three </h3>
+  <h4> Heading Four </h4>
+  <h5> Heading Five </h5>
+  <h6> Heading Six </h6>
+  <!--Paragraphs-->
+  <p> <a href="">Lorem ipsum</a> dolor, <strong> <em> amet consectetur adipisicing </em> </strong>elit. <em> Commodi
+    </em> iusto amet tenetur
+    <!--inline elements: strong, em-->
+    aliquam quod est nostrum deleniti laboriosam error iure! Architecto nemo libero illo
+    consectetur, accusantium est sapiente aut nam.
+  </p>
+  <p>
+    <a href="http://google.com" target="_blank"> Lorem ipsum </a> dolor sit amet consectetur, adipisicing elit.
+    Fugiat, voluptas! Nihil minima
+    ipsum cupiditate! Nobis accusantium ullam harum magni in!
+  </p>
+  <!--Lists-->
+  <ul>
+    <!--unordered list-->
+    <li> List Item 1 </li>
+    <!--list item-->
+    <li> List Item 2 </li>
+    <li> List Item 3 </li>
+  </ul>
+  <ol>
+    <li> List Item 1 </li>
+    <li> List Item 2 </li>
+    <li> List Item 3 </li>
+  </ol>
+  <!--table-->
+  <table>
+    <thead>
+      <tr>
+        <!--table row-->
+        <th> Name </th>
+        <!--table heading-->
+        <th> Email </th>
+        <th> Age </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Nauman </td>
+        <!--table data-->
+        <td> nauman@yopmail.com </td>
+        <td> 22 </td>
+      </tr>
+      <tr>
+        <td> Farhan </td>
+        <td> farhan@yopmail.com </td>
+        <td> 23 </td>
+      </tr>
+      <tr>
+        <td> Shayan </td>
+        <td> shayan@yopmail.com </td>
+        <td> 24 </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <hr> <br>
+  <!--line break and horizontal rule-->
+  <!--forms-->
+  <form action="process.js" method="POST">
+    <!--label and input are inline, so using div for block level scope-->
+    <div>
+      <label for="">First Name</label>
+      <input type="text" name="firstName" placeholder="Enter first name">
+      <!--name attribute is "variable" in which input gets stored-->
+    </div>
+    <br>
+    <div>
+      <label for="">Last Name</label>
+      <input type="text" name="lastName">
+    </div>
+    <br>
+    <div>
+      <label for="">Email</label>
+      <input type="email" name="email">
+    </div>
+    <br>
+    <div>
+      <label for="">Message</label>
+      <textarea name="message" id="" cols="30" rows="10"></textarea>
+    </div>
+    <!--select list-->
+    <br>
+    <div>
+      <label for="">Gender</label>
+      <select name="gender" id="">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <label for="">Age</label>
+      <input type="number" name="age" value="30">
+    </div>
+    <br>
+    <div>
+      <label for="">Birthday:</label>
+      <input type="date" name="birthday">
+    </div>
+    <br>
+    <!--submit button: takes control to action attribute of the form-->
+    <input type="submit" name="submit" id="" value="Submit">
+  </form>
+
+  <!--Button-->
+  <br>
+  <button>Click Me</button>
+
+  <!--Image-->
+  <br>
+  <br>
+  <a href="images/falchion.png">
+    <!--hyperlink tag (a tag)-->
+    <img src="images/falchion.png" alt="Falchion 404" width="">
+  </a>
+
+  <!--Quotations-->
+  <blockquote cite="http://google.com"> Lorem ipsum dolor, sit amet consectetur adipisicing
+    elit. Voluptas esse odit similique, non ab rem culpa optio
+    reprehenderit doloribus atque repudiandae alias a commodi.
+    Reprehenderit voluptatum a nemo odio cumque.
+  </blockquote>
+  <p> The <abbr title="World Wide Web">WWW</abbr> is awesome </p>
+  <p> <cite> HTML crash course </cite>by Brad Traversy </p>
+  <!--tells the browser this text is cited-->
+
+  <!-- <div style="margin-top:500px"></div> -->
+</body>
+
+</html>

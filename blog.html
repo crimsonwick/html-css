@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Defines information about the document-->
+    <meta charset="UTF-8"> <!--Metadata typically define the document title, character set, styles, scripts, and other meta information.-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Awesome blog by Nauman Cheema">
+    <meta name="keywords" content="web design blog, web dev blog, crimsonwick">
+    <title>My Blog</title>
+    <style>
+        aside { 
+          width: 30%;
+          padding-left: 15px;
+          margin-left: 15px;
+          float: right;
+          font-style: italic;
+          background-color: lightgray;
+        }
+        </style>
+    <style>
+        #main-header{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding:10px;
+        }
+        #main-footer{
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>My Website</h1>
+    </header>
+   
+    <a href="index.html">Go to index</a>
+
+    <!--HTML 5 Semantic Tags-->
+    <section>
+        <article class="post"> <!--The <article> tag specifies independent, self-contained content.-->
+            <h3>First Blog Post</h3>
+            <small>Posted by Nauman on August 10</small> <!--makes text small (create dates,etc. subcontent)-->
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Numquam excepturi voluptates saepe consectetur nemo vel dolore
+                quos, tenetur itaque? Blanditiis natus ut inventore dolores
+                minima quia dicta ab sunt tempora?</p>
+                <a href="post.html" target="_blank">Read more...</a>
+        </article>
+
+        <article class="post">
+            <h3>Second Blog Post</h3>
+            <small>Posted by Nauman on August 10</small> <!--makes text small (create dates,etc. subcontent)-->
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Numquam excepturi voluptates saepe consectetur nemo vel dolore
+                quos, tenetur itaque? Blanditiis natus ut inventore dolores
+                minima quia dicta ab sunt tempora?</p>
+                <a href="post.html" target="_blank">Read More...</a>
+        </article>
+
+        <article class="post">
+            <h3>Third Blog Post</h3>
+            <small>Posted by Nauman on August 10</small> <!--makes text small (create dates,etc. subcontent)-->
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Numquam excepturi voluptates saepe consectetur nemo vel dolore
+                quos, tenetur itaque? Blanditiis natus ut inventore dolores
+                minima quia dicta ab sunt tempora?</p>
+                <a href="post.html" target="_blank">Read More...</a>
+        </article>
+    </section>
+
+    <aside>  <!--The <aside> tag defines some content aside from the content it is placed in. Often used as a sidebar-->
+        <h3>Categories</h3>
+        <nav> <!--use nav tag when some navigation i.e links in a list (style horizontally through css)-->
+            <ul>
+                <li> <a href="#">Category 1</a></li>
+                <li> <a href="#">Category 2</a></li>
+                <li> <a href="#">Category 3</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <footer id="main-footer">
+        <p>Copyright &copy; 2022, My Pure HTML Website</p>
+    </footer>
+
+</body>
+</html>
