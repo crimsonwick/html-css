@@ -1,0 +1,106 @@
+body {
+    background-color: #444444;
+    color: 		#D8BFD8
+}
+
+a {
+    color: 		#D8BFD8;
+}
+
+p {
+    word-spacing: 2px;
+    text-indent: 20px;
+    font-family: "Monospace", Times, serif;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-family: "Monospace", Times, serif;
+    font-size: 30px;
+}
+
+#linkToNextPage {
+    background-color:crimson;
+    color: 	#D8BFD8;
+    font-family:cursive;
+    text-align: center;
+}
+
+.list {
+    color:aqua;
+    text-align:center;
+}
+
+.listItem {
+    border: 2px solid tomato;
+} /*only first item with class name is affected*/
+
+li {
+    border: 2px solid tomato;
+    border-radius: 3px;
+    /* margin: 2px 50px 2px 5px; */
+    width:200px;
+    margin: auto;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    padding: 0px 50px;
+    box-sizing: border-box; /*stops width from increasing*/
+}
+
+#parent {
+    position: relative;
+}
+
+#patrick {
+    /* background-image: url("https://media3.giphy.com/media/LXHJRRjnviw7e/200w.gif?cid=82a1493b0vs8iv0f7ouw4t3h943f1avswfovjymbgv2u32t1&amp;rid=200w.gif&amp;ct=g");
+    background-attachment: scroll;
+    background-position: top right;
+    background-repeat: no-repeat; */
+    border-style: dotted;
+    /* border-width: 4px 5px 4px 5px; */
+    border-width: 4px 5px; /*same as above*/
+    border-color: red green cyan yellow;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    /* float:left; */
+}
+
+.tHead {
+    border: 2px solid purple
+}
+
+#table {
+    border: 2px solid tomato;
+    outline: 5px double grey;
+    outline-offset: 5px;
+}
+
+.tData {
+    border: 2px solid greenyellow;
+    padding: 1px 15px
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+ul {
+    list-style-type:georgian;
+}
+
+.listItem {
+    display: inline;
+}
+
+#falchion {
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#falchion:hover{
+    opacity: 1;
+}

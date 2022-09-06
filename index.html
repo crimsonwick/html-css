@@ -2,6 +2,9 @@
 <html>
 
 <head>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+  <link rel="stylesheet" href="index.css">
   <title>
     HTML Cheat Sheet
   </title>
@@ -10,9 +13,14 @@
 <body>
   <base href="blog.html">
   <!--Specify a default URL and a default target for all links on a page-->
-  <a href="blog.html">Go to blog</a>
-  <hr>
+  <a id="linkToNextPage" href="blog.html">Go to blog</a>
   <!--Headings-->
+  <div id="parent">
+    <hr>
+    <img id="patrick"
+      src="https://media3.giphy.com/media/LXHJRRjnviw7e/200w.gif?cid=82a1493b0vs8iv0f7ouw4t3h943f1avswfovjymbgv2u32t1&amp;rid=200w.gif&amp;ct=g"
+      alt="evil patrick">
+  </div>
   <h1 title="title"> Heading One </h1>
   <!--heading with "Tag Attribute"-->
   <h2> Heading Two </h2>
@@ -21,57 +29,62 @@
   <h5> Heading Five </h5>
   <h6> Heading Six </h6>
   <!--Paragraphs-->
-  <p> <a href="">Lorem ipsum</a> dolor, <strong> <em> amet consectetur adipisicing </em> </strong>elit. <em> Commodi
+  <p class="para"> <a href="">Lorem ipsum</a> dolor, <strong> <em> amet
+        consectetur
+        adipisicing </em> </strong>elit. <em> Commodi
     </em> iusto amet tenetur
     <!--inline elements: strong, em-->
-    aliquam quod est nostrum deleniti laboriosam error iure! Architecto nemo libero illo
+    aliquam quod est nostrum deleniti laboriosam error iure! Architecto nemo
+    libero illo
     consectetur, accusantium est sapiente aut nam.
   </p>
-  <p>
-    <a href="http://google.com" target="_blank"> Lorem ipsum </a> dolor sit amet consectetur, adipisicing elit.
+  <p class="para">
+    <a href="http://google.com" target="_blank"> Lorem ipsum </a>
+    dolor sit amet
+    consectetur, adipisicing elit.
     Fugiat, voluptas! Nihil minima
     ipsum cupiditate! Nobis accusantium ullam harum magni in!
   </p>
   <!--Lists-->
-  <ul>
+  <ul class="list">
     <!--unordered list-->
     <li> List Item 1 </li>
     <!--list item-->
     <li> List Item 2 </li>
     <li> List Item 3 </li>
   </ul>
-  <ol>
-    <li> List Item 1 </li>
-    <li> List Item 2 </li>
-    <li> List Item 3 </li>
+  <ol class="list">
+    <li class="listItem"> List Item 1 </li>
+    <li class="listItem"> List Item 2 </li>
+    <li class="listItem"> List Item 3 </li>
   </ol>
   <!--table-->
-  <table>
+  <table id="table">
     <thead>
       <tr>
         <!--table row-->
-        <th> Name </th>
+        <th class="tHead"> Name </th>
         <!--table heading-->
-        <th> Email </th>
-        <th> Age </th>
+        <th class="tHead"> Email </th>
+        <th class="tHead"> Age </th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td> Nauman </td>
+        <td class="tData"> Nauman </td>
         <!--table data-->
-        <td> nauman@yopmail.com </td>
-        <td> 22 </td>
+        <td class="tData"> nauman@yopmail.com </td>
+        <td class="tData"> 22 </td>
       </tr>
       <tr>
-        <td> Farhan </td>
-        <td> farhan@yopmail.com </td>
-        <td> 23 </td>
+        <td class="tData"> Farhan </td>
+        <td class="tData"> farhan@yopmail.com </td>
+        <td class="tData"> 23 </td>
       </tr>
       <tr>
-        <td> Shayan </td>
-        <td> shayan@yopmail.com </td>
-        <td> 24 </td>
+        <td class="tData"> Shayan </td>
+        <td class="tData"> shayan@yopmail.com </td>
+        <td class="tData"> 24 </td>
       </tr>
     </tbody>
   </table>
@@ -134,11 +147,12 @@
   <br>
   <a href="images/falchion.png">
     <!--hyperlink tag (a tag)-->
-    <img src="images/falchion.png" alt="Falchion 404" width="">
+    <img id="falchion" src="images/falchion.png" alt="Falchion 404" width="">
   </a>
 
   <!--Quotations-->
-  <blockquote cite="http://google.com"> Lorem ipsum dolor, sit amet consectetur adipisicing
+  <blockquote cite="http://google.com"> Lorem ipsum dolor, sit amet consectetur
+    adipisicing
     elit. Voluptas esse odit similique, non ab rem culpa optio
     reprehenderit doloribus atque repudiandae alias a commodi.
     Reprehenderit voluptatum a nemo odio cumque.
